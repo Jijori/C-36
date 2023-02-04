@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+
+    <script>
+      //the key confirguration
+      const firebaseConfig = {
+  apiKey: "AIzaSyBCh4mbpQ04QaEgGOs6UDTBkZBJikCa2d4",
+  authDomain: "ball-game---c-36.firebaseapp.com",
+  databaseURL: "https://ball-game---c-36-default-rtdb.firebaseio.com",
+  projectId: "ball-game---c-36",
+  storageBucket: "ball-game---c-36.appspot.com",
+  messagingSenderId: "948871518248",
+  appId: "1:948871518248:web:22395fe9201a359890bd1d",
+  measurementId: "G-G3QLVVJK31"
+};
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
